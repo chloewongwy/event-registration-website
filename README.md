@@ -116,4 +116,5 @@ async function loadProgrammeData() {
 ## 📄 License
 
 This project is available for portfolio demonstration purposes. Event content and HKMU branding are used for educational demonstration only.
+
 ---
