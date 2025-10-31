@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Learning and Teaching Week 2025 - Hong Kong Metropolitan University">
+    <meta name="keywords" content="HKMU, Learning, Teaching, AI, SoTL, Education, Seminar">
+
+    <title>Learning and Teaching Week 2025 | HKMU</title>
+	
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header with University Logo -->
+    <header class="site-header">
+        <div class="header-container">
+            <img src="figma:asset/643a77f54ad9d99cef3820bb0eb5ca8a140cfaa7.png" 
+                 alt="Hong Kong Metropolitan University" 
+                 class="university-logo">
+            <a href="#registration" class="header-register-btn">Register Now</a>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <div class="hero-banner" id="heroBanner">
+        <!-- Tech Grid Background -->
+        <div class="tech-grid"></div>
+        
+        <!-- Digital Circuit Lines -->
+        <div class="circuit-lines">
+            <div class="circuit-line circuit-line-1"></div>
+            <div class="circuit-line circuit-line-2"></div>
+            <div class="circuit-line circuit-line-3"></div>
+            <div class="circuit-dot circuit-dot-1"></div>
+            <div class="circuit-dot circuit-dot-2"></div>
+            <div class="circuit-dot circuit-dot-3"></div>
+            <div class="circuit-dot circuit-dot-4"></div>
+        </div>
+        
+        <!-- Placeholder for banner image -->
+        <img src="banner-placeholder.jpg" alt="Learning and Teaching Week 2025 Banner" class="banner-image" 
+             onerror="this.style.display='none'">
+        <div class="banner-overlay">
+            <div class="banner-content">
+                <h1 class="floating-text tech-glow">Learning and Teaching Week 2025</h1>
+                <div class="subtitle floating-text-delayed">Reimagine Education: AI-Enhanced, SoTL-Inspired Teaching for Tomorrow</div>
+                
+                <!-- Tech Date Timeline -->
+                <div class="tech-date-timeline">
+                    <!-- Main Event Date Badge -->
+                    <div class="date-badge-main">
+                        <div class="date-badge-inner">
+                            <div class="date-day">11 Aug</div>
+                            <div class="date-weekday">Mon</div>
+                        </div>
+                        <div class="badge-pulse"></div>
+                    </div>
+                    
+                    <!-- Timeline Bar with Dates -->
+                    <div class="timeline-container">
+                        <div class="timeline-dates">
+                            <div class="timeline-date timeline-date-active">
+                                <span>12 Aug</span>
+                                <span class="weekday">Tue</span>
+                            </div>
+                            <div class="timeline-date timeline-date-active">
+                                <span>18 Aug</span>
+                                <span class="weekday">Mon</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Timeline Bar -->
+                        <div class="timeline-bar">
+                            <div class="timeline-segment timeline-segment-active">
+                                <div class="timeline-dot timeline-dot-active"></div>
+                                <div class="timeline-progress"></div>
+                            </div>
+                            <div class="timeline-segment timeline-segment-active">
+                                <div class="timeline-dot timeline-dot-active"></div>
+                                <div class="timeline-progress timeline-progress-delayed"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="organizer floating-text-delayed-most">Organised by Office for Advancement of Learning and Teaching (ALTO)</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Introduction Section -->
+        <div class="section">
+            <p style="font-size: 1.1rem; line-height: 1.8; color: #333;">
+                Experienced academic speakers from local and overseas universities have been invited to share their expertise in various popular topics, such as AI Innovations for Higher Education and Scholarship of Teaching and Learning (SoTL). Join us for this exciting four-day event featuring seminars, workshops, and round table discussions designed to enhance your teaching practice.
+            </p>
+        </div>
+
+        <!-- Theme Section -->
+        <div id="theme">
+            Reimagine Education:<br>
+            AI-Enhanced, SoTL-Inspired Teaching for Tomorrow
+        </div>
+
+        <!-- Overview Section -->
+        <section id="overview" class="section">
+            <h2>Overview</h2>
+            <div class="overview-grid">
+                <div class="overview-item" data-day="11" onclick="filterFromOverview(11)">
+                    <span class="date">11 August 2025 (Day 1)</span>
+                    <div class="description">Opening Ceremony and Seminars from International Guest Speakers on AI in Education</div>
+                </div>
+
+                <div class="overview-item" data-day="12" onclick="filterFromOverview(12)">
+                    <span class="date">12 August 2025 (Day 2)</span>
+                    <div class="description">The SoTL Day - Exploring Scholarship of Teaching and Learning</div>
+                </div>
+                
+                <div class="overview-item" data-day="18" onclick="filterFromOverview(18)">
+                    <span class="date">18 August 2025 (Day 3)</span>
+                    <div class="description">Practical Skills for Innovative Teaching - Hands-on Workshops</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Programme Section -->
+        <section id="programme" class="section">
+            <h2>Programme</h2>
+            
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-day="all">All Days</button>
+                <button class="filter-btn" data-day="11">Day 1 (11 Aug)</button>
+                <button class="filter-btn" data-day="12">Day 2 (12 Aug)</button>
+                <button class="filter-btn" data-day="18">Day 3 (18 Aug)</button>
+            </div>
+
+            <div id="programmeList">
+                <!-- Programmes will be loaded here by JavaScript -->
+                <div class="loading">Loading programmes...</div>
+            </div>
+        </section>
+
+        <!-- Registration Section -->
+        <section id="registration" class="section">
+            <form id="registerForm">
+                <h2>Register for an Event</h2>
+                
+                <div id="successMessage" class="success-message"></div>
+
+                <div class="form-group">
+                    <label for="yourname">
+                        Name <span class="required">*</span>
+                    </label>
+                    <input type="text" id="yourname" name="yourname" required 
+                           placeholder="Enter your full name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">
+                        Email <span class="required">*</span>
+                    </label>
+                    <input type="email" id="email" name="email" required 
+                           placeholder="your.email@hkmu.edu.hk">
+                </div>
+
+                <!-- School Selection -->
+                <div class="form-group">
+                    <label for="School_display">
+                        School/Office <span class="required">*</span>
+                    </label>
+                    <input type="text" id="School_display" name="School_display" 
+                           placeholder="Click below to select your school/office" readonly required>
+                </div>
+                <div class="school-actions">
+                    <button type="button" onclick="openSchoolModal()">
+                        Select Your School/Office
+                    </button>
+                </div>
+                
+                <!-- Event Selection -->
+                <div class="form-group">
+                    <label for="event_display">
+                        Event <span class="required">*</span>
+                    </label>
+                    <input type="text" id="event_display" name="event_display" 
+                           placeholder="Click below to select event(s)" readonly required>
+                </div>
+                <div class="school-actions">
+                    <button type="button" onclick="openEventModal()">
+                        Select Event(s)
+                    </button>
+                </div>
+                
+                <!-- Selected Events List Display -->
+                <div id="selectedEventsList" class="selected-events-list" style="display: none;">
+                    <!-- Selected events will be displayed here -->
+                </div>
+                
+                <!-- Hidden field to store selected event IDs -->
+                <input type="hidden" id="event" name="event" required>
+                
+                <!-- Form Actions -->
+                <div class="form-actions">
+                    <button type="submit" class="btn-save">Register Now</button>
+                    <a href="#" class="link-cancel" 
+                       onclick="clearRegistrationForm(); return false;">
+                        Clear Form
+                    </a>
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <!-- School Selection Modal -->
+    <div id="schoolModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">Select Your School/Office</div>
+            
+            <div class="modal-body">
+                <div class="radio-group">
+                    <div class="radio-item">
+                        <input type="radio" name="school" value="ALTO" id="school-alto">
+                        <label for="school-alto">ALTO</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" name="school" value="A&SS" id="school-ass">
+                        <label for="school-ass">Arts & Social Sciences</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" name="school" value="B&A" id="school-ba">
+                        <label for="school-ba">Business & Administration</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" name="school" value="E&L" id="school-el">
+                        <label for="school-el">Education & Languages</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" name="school" value="FMO" id="school-fmo">
+                        <label for="school-fmo">Facilities Management</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" name="school" value="FO" id="school-fo">
+                        <label for="school-fo">Finance Office</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" name="school" value="HRO" id="school-hro">
+                        <label for="school-hro">Human Resources</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" name="school" value="ITO" id="school-ito">
+                        <label for="school-ito">Information Technology</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" name="school" value="LIB" id="school-lib">
+                        <label for="school-lib">Library</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" name="school" value="N&HS" id="school-nhs">
+                        <label for="school-nhs">Nursing & Health Sciences</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" name="school" value="OPA" id="school-opa">
+                        <label for="school-opa">Office of the Provost</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" name="school" value="PO" id="school-po">
+                        <label for="school-po">President's Office</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" name="school" value="PAO" id="school-pao">
+                        <label for="school-pao">Public Affairs</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" name="school" value="REG" id="school-reg">
+                        <label for="school-reg">Registry</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" name="school" value="S&T" id="school-st">
+                        <label for="school-st">Science & Technology</label>
+                    </div>
+                    <div class="radio-item">
+                        <input type="radio" name="school" value="SAO" id="school-sao">
+                        <label for="school-sao">Student Affairs</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-actions">
+                <button type="button" class="btn-ok" onclick="confirmSchoolSelection()">Confirm</button>
+                <button type="button" class="btn-close" onclick="closeSchoolModal()">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Event Selection Modal -->
+    <div id="eventModal" class="modal">
+        <div class="modal-content">
+            <h2>Select Event(s)</h2>
+            <p class="modal-description">You can select multiple events to register</p>
+            
+            <div class="modal-body">
+                <div id="eventCheckboxList" class="checkbox-list">
+                    <!-- Event checkboxes will be dynamically loaded here -->
+                </div>
+            </div>
+
+            <div class="modal-actions">
+                <button type="button" class="btn-ok" onclick="confirmEventSelection()">Confirm</button>
+                <button type="button" class="btn-close" onclick="closeEventModal()">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" class="scroll-top" onclick="scrollToTop()">
+        ↑
+    </button>
+
+    <!-- Link to external JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

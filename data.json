@@ -1,0 +1,296 @@
+{
+  "programmeData": [
+    {
+      "programmeId": "1101",
+      "day": 11,
+      "time": "9:30am-9:35am",
+      "venue": "C0G01, Main Campus",
+      "topic": "Opening Remarks",
+      "synopsis": "",
+      "speaker": ["Prof. Thomas Baker"],
+      "language": "ENG"
+    },
+    {
+      "programmeId": "1102",
+      "day": 11,
+      "time": "9:40am-9:55am",
+      "venue": "C0G01, Main Campus",
+      "topic": "Institutional Review (IR)",
+      "synopsis": "Institutional Review (IR) is often perceived as a complex and intricate process. This session aims to demystify IR by breaking it down into its core components, offering a clear and concise overview. Participants will gain a rudimentary understanding of the 'why,' 'what,' and 'how' of IR.",
+      "speaker": ["Prof. Anna White"],
+      "language": "ENG"
+    },
+    {
+      "programmeId": "1103",
+      "day": 11,
+      "time": "10:00am-10:15am",
+      "venue": "C0G01, Main Campus",
+      "topic": "Internationalisation and QS Ranking",
+      "synopsis": "HKMU's debut on the QS World Ranking calls for a reflection on our academic standing on the international stage. By using the rankings as a benchmark, we can identify opportunities to elevate our teaching and research quality, refine institutional practices, and forge connections with like-minded global partners. In this session, we shall explore how strategies for enhancing internationalisation and global reputation complement each other, showcasing how collaborations and data-driven planning can empower us to further advance the University's mission and make meaningful contributions to society.",
+      "speaker": ["Prof. Robert Liu"],
+      "language": "ENG"
+    },
+    {
+      "programmeId": "1104",
+      "day": 11,
+      "time": "10:20am-10:35am",
+      "venue": "C0G01, Main Campus",
+      "topic": "Campus Development",
+      "synopsis": "HKMU, a fast-growing self-financing University of Applied Sciences in city centre, faces ongoing challenges in developing its campus and improving facilities. This session outlines recent and upcoming efforts to enhance infrastructure and tackle space shortages, through which better serve our learning, teaching and scholarly activities.",
+      "speaker": ["Prof. Jane Parker"],
+      "language": "ENG"
+    },
+    {
+      "programmeId": "1105",
+      "day": 11,
+      "time": "10:40am-10:55am",
+      "venue": "C0G01, Main Campus",
+      "topic": "Research Collaboration and Opportunities",
+      "synopsis": "Developing research credentials is an important aspect toward becoming an internationally recognized scholar. However, conducting research in a self-financing university is particular difficult due to, among many factors, the fact that teaching load and administrative load are exceptionally high. Thus, as a strategic direction, the University highly encourages and supports collaborative research, in which the synergy can enable world class results to be obtained, even though individually each teammate has relatively less time for research work.",
+      "speaker": ["Prof. William Ng"],
+      "language": "ENG"
+    },
+    {
+      "programmeId": "1106",
+      "day": 11,
+      "time": "10:55am-11:15am",
+      "venue": "",
+      "topic": "Tea Break",
+      "synopsis": "",
+      "speaker": [],
+      "language": "ENG"
+    },
+    {
+      "programmeId": "1107",
+      "day": 11,
+      "time": "11:15am-12:00nn",
+      "venue": "C0G01, Main Campus",
+      "topic": "Presentation of Certificate of Appointment to Learning and Teaching Evangelists (LTEs)",
+      "synopsis": "",
+      "speaker": [
+        "Prof. Anna White",
+        "Dr. Claire Evans",
+        "Dr. Natalie Green",
+        "Dr. Henry Scott",
+        "Dr. Julia Kim",
+        "Dr. Zoe Carter",
+        "Dr. Liam Yang",
+        "Dr. Ethan Brooks",
+        "Dr. Mia Foster"
+      ],
+      "language": "ENG"
+    },
+    {
+      "programmeId": "1108",
+      "day": 11,
+      "time": "12:00nn-2:00pm",
+      "venue": "",
+      "topic": "Lunch",
+      "note": "Lunch box will be provided",
+      "synopsis": "",
+      "speaker": []
+    },
+    {
+      "programmeId": "1109",
+      "day": 11,
+      "time": "2:00pm-2:45pm",
+      "venue": "C0G01, Main Campus",
+      "topic": "Productive Struggle Meets AI: Designing for Learning with Educational Technologies",
+      "synopsis": "Educational technologies often promise to make learning 'easier,' but research shows meaningful learning requires cognitive challenge. This seminar explores how to design and implement AI-powered educational technologies that enhance rather than bypass self-regulated learning, providing practical methods for maintaining academic rigour while leveraging the benefits of AI for learning.",
+      "speaker": ["Prof. Mark Lewis"],
+      "language": "ENG"
+    },
+    {
+      "programmeId": "1110",
+      "day": 11,
+      "time": "2:50pm-3:35pm",
+      "venue": "C0G01, Main Campus",
+      "topic": "Redesigning Assignments in the Age of AI",
+      "synopsis": "This engaging presentation will help you learn different aspects of both using AI to enhance assignments and how to make assignments more focused on students' knowledge and capabilities. A special technique will be explained to achieve a balance of ethical AI use while still holding students accountable for their learning.",
+      "speaker": ["Dr. Sophie Hall"],
+      "language": "ENG"
+    },
+    {
+      "programmeId": "1111",
+      "day": 11,
+      "time": "3:40pm-4:25pm",
+      "venue": "C0G01, Main Campus",
+      "topic": "GenAI in Action: Applications of AI Tools for Teaching and Learning",
+      "synopsis": "Generative AI is transforming education by enabling personalized, engaging learning experiences. This seminar explores how AI tools can simplify complex ideas, spark curiosity, and provide meaningful feedback, empowering learners to thrive in an AI-driven world through deeper understanding, reflection, and interactive, statementNote-centered activities.",
+      "speaker": ["Dr. Isabella Cruz"],
+      "language": "ENG"
+    },
+    {
+      "programmeId": "1112",
+      "day": 11,
+      "time": "4:30pm-5:30pm",
+      "venue": "C0G01, Main Campus",
+      "topic": "Round Table Discussion: Generative AI in Teaching and Learning",
+      "synopsis": "",
+      "speaker": [
+        "Prof. Mark Lewis",
+        "Dr. Sophie Hall",
+        "Dr. Isabella Cruz",
+        "Dr. Ella Wong",
+        "Dr. Lucas Tan",
+        "Ms. Chloe Lin"
+      ],
+      "facilitator": "Prof. William Ng",
+      "language": "ENG"
+    },
+    {
+      "programmeId": "1201",
+      "day": 12,
+      "time": "9:30am-10:15am",
+      "venue": "C0G01, Main Campus",
+      "topic": "SoTL at HKMU",
+      "synopsis": "Working in a teaching-intensive university, colleagues spend much more time in teaching tasks compared with that in a research university. Consequently, conducting research 'about' teaching becomes a very sensible career development strategy. Officially, this is called scholarship in teaching and learning (SoTL). For one thing, researching about innovative and more effective pedagogies can lead to immediate impact in the 'day job,' i.e., teaching duties. Secondly, such research results are very welcomed by reputable journals. Moreover, the new pedagogies and insights can generate impacts in many other institutions. Thus, as a strategic direction, the University highly encourages and supports SoTL.",
+      "speaker": ["Prof. William Ng"],
+      "language": "ENG"
+    },
+    {
+      "programmeId": "1202",
+      "day": 12,
+      "time": "10:30am-11:15am",
+      "venue": "C0G01, Main Campus",
+      "topic": "The Roles of SoTL in Promoting a Culture of Inquiry - a Sharing of Research Project Examples",
+      "synopsis": "This session discusses the roles of Scholarship of Teaching and Learning (SoTL) in fostering a culture of inquiry in higher education. Through theoretical insights and research project examples, participants will appreciate how SoTL motivates and empowers educators to investigate, innovate, and improve teaching practices, ultimately enhancing statementNote learning and developing a system of inquiry-based practice within educators' teaching practice.",
+      "speaker": ["Dr. Rachel Ho"],
+      "language": "ENG"
+    },
+    {
+      "programmeId": "1203",
+      "day": 12,
+      "time": "11:30am-12:15pm",
+      "venue": "C0G01, Main Campus",
+      "topic": "SoTL as Systematic Inquiry Into Student Learning",
+      "synopsis": "Scholarship of Teaching and Learning is an opportunity to not only reflect on teaching, but to inquire systematically about statementNote learning. SoTL is a field often referred to as a 'big tent,' hospitable to a wide range of methodological approaches. In this talk I will present a framework to help structure SoTL research along with examples of actual studies, giving insight to the SoTL research process.",
+      "speaker": ["Dr. Hannah Lee"],
+      "language": "ENG"
+    },
+    {
+      "programmeId": "1204",
+      "day": 12,
+      "time": "12:15pm-2:15pm",
+      "venue": "",
+      "note": "Lunch box will be provided",
+      "topic": "Lunch",
+      "synopsis": "",
+      "speaker": []
+    },
+    {
+      "programmeId": "1205",
+      "day": 12,
+      "time": "2:15pm-3:00pm",
+      "venue": "C0G01, Main Campus",
+      "topic": "Unite to Ignite: Driving SoTL through Cross-Disciplinary Collaboration",
+      "synopsis": "This seminar aims to highlight the role of cross-disciplinary collaboration in advancing the Scholarship of Teaching and Learning (SoTL). Drawing on her own experiences, the speaker will share insights into how she began her SoTL journey through collaborative efforts across disciplines and will explore strategies for fostering such collaboration.",
+      "speaker": ["Dr. Sophia Yang"],
+      "language": "ENG"
+    },
+    {
+      "programmeId": "1206",
+      "day": 12,
+      "time": "3:15pm-4:00pm",
+      "venue": "C0G01, Main Campus [ZOOM]",
+      "topic": "Strategies for impactful Scholarship of Teaching and Learning (SoTL)",
+      "synopsis": "In this presentation, I will discuss the following: why SoTL matters and why SoTL should be integral to academic practice; the key values and strategies that guide impactful SoTL; tools for planning and generating impact of SoTL; and the role of evaluative thinking in evidence-informed impact of SoTL.",
+      "speaker": ["Prof. Olivia Chen"],
+      "language": "ENG"
+    },
+    {
+      "programmeId": "1207",
+      "day": 12,
+      "time": "4:15pm-5:15pm",
+      "venue": "C0G01, Main Campus",
+      "topic": "Round Table Discussion: SoTL",
+      "synopsis": "",
+      "speaker": [
+        "Prof. Olivia Chen",
+        "Dr. Hannah Lee",
+        "Dr. Noah Kim",
+        "Dr. Sophia Yang",
+        "Dr. Liam Zhang",
+        "Dr. Rachel Ho",
+        "Dr. Ethan Lin"
+      ],
+      "facilitator": "Prof. William Ng",
+      "language": "ENG"
+    },
+    {
+      "programmeId": "1801",
+      "day": 18,
+      "time": "9:15am-10:15am",
+      "venue": "Active Learning Space (1/F MC Stanley Ho Library)",
+      "topic": "Workshop on Canva",
+      "note": "Participants are required to bring their Laptop",
+      "synopsis": "Are you looking for a handy tool to elevate your upcoming presentations? This workshop will introduce participants to Canva, a one-stop design platform for creating visually appealing presentations, graphics and videos. Through hands-on practice, participants will explore the built-in templates and AI features, saving hours on searching for graphics, formatting and creating animations. By the end of the session, participants will acquire the techniques for designing engaging presentation materials using Canva.",
+      "speaker": ["Ms. Emma Lau"],
+      "language": "ENG"
+    },
+    {
+      "programmeId": "1802",
+      "day": 18,
+      "time": "10:30am-11:30am",
+      "venue": "Active Learning Space (1/F MC Stanley Ho Library)",
+      "topic": "Workshop on Leonardo.ai",
+      "note": "Participants are required to bring their Laptop",
+      "synopsis": "Heard of Leonardo.ai but not sure what it can do, or how it's different from other AI tools for images and videos? This workshop introduces Leonardo.ai, a GenAI platform for creating visually engaging images and short video content. Key features will be demonstrated, including how to generate visuals using prompts, apply edits, and manage outputs. No prior experience is required. Participants will explore how Leonardo can be used in creative, educational, or professional contexts.",
+      "speaker": ["Mr. David Chan"],
+      "language": "ENG"
+    },
+    {
+      "programmeId": "1803",
+      "day": 18,
+      "time": "11:45am-12:30pm",
+      "venue": "Active Learning Space (1/F MC Stanley Ho Library)",
+      "topic": "Workshop on Vidnoz AI and Avatar",
+      "note": "Participants are required to bring their Laptop",
+      "synopsis": "Revolutionise your classroom presentations with Vidnoz AI in this hands-on workshop. Discover how to create captivating videos that enhance your PowerPoint slides and deliver your presentation through a lifelike AI avatar. Follow a step-by-step guide to convert static slides into dynamic video content, leveraging AI-powered tools to boost statementNote engagement and elevate learning experiences.",
+      "speaker": ["Mr. James Wu"],
+      "language": "ENG"
+    },
+    {
+      "programmeId": "1804",
+      "day": 18,
+      "time": "12:30pm-2:15pm",
+      "venue": "",
+      "topic": "Lunch",
+      "synopsis": "",
+      "speaker": []
+    },
+    {
+      "programmeId": "1805",
+      "day": 18,
+      "time": "2:15pm-3:15pm",
+      "venue": "Active Learning Space (1/F MC Stanley Ho Library)",
+      "topic": "Workshop on Perplexity",
+      "note": "Participants are required to bring their Laptop",
+      "synopsis": "This workshop will introduce you to Perplexity, an AI-powered research assistant designed to streamline information discovery and enhance academic and administrative productivity. You will explore how Perplexity can be used to conduct efficient, reliable research, generate concise summaries, and support content creation across various teaching and professional contexts. Through hands-on experience, you will gain actionable strategies to confidently incorporate Perplexity into your teaching and administrative practices, ultimately enriching the statementNote learning experience and improving institutional efficiency.",
+      "speaker": ["Ms. Lily Tam"],
+      "language": "ENG"
+    },
+    {
+      "programmeId": "1806",
+      "day": 18,
+      "time": "3:30pm-4:30pm",
+      "venue": "Active Learning Space (1/F MC Stanley Ho Library)",
+      "topic": "Workshop on Creating OLE In-class Activities and Online Quizzes",
+      "note": "Participants are required to bring their Laptop",
+      "synopsis": "This workshop guides participants through setting up and managing online quizzes and class activities using the OLE platform. Participants learn to create quizzes with varied question types, schedule assessments, control statementNote access, and enable QR code submissions for in-class activities. Step-by-step instructions ensure effective design, release, and administration of interactive learning experiences.",
+      "speaker": ["Mr. Ryan Cheung", "Mr. Nathan Li"],
+      "language": "ENG"
+    },
+    {
+      "programmeId": "1807",
+      "day": 18,
+      "time": "4:45pm-5:45pm",
+      "venue": "Active Learning Space (1/F MC Stanley Ho Library)",
+      "topic": "Workshop on Teaching ePortfolio",
+      "note": "Participants are required to bring their Laptop",
+      "synopsis": "This workshop begins by introducing the Teaching ePortfolio as a form of teaching practice. The session then provides an overview of the platform's key features and essential preparation items, followed by hands-on practice including: setting up profile information, creating ePortfolio pages with digital artifacts, linking multimedia content, utilizing special design features, and crafting effective reflections. Participants will also receive practical tips for developing a professional Teaching ePortfolio, equipping them with the skills to compete for the President's Awards for Excellence in Inspirational Teaching.",
+      "speaker": ["Dr. Mia Wong"],
+      "language": "ENG"
+    }
+  ]
+}
