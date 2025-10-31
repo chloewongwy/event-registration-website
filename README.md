@@ -3,7 +3,7 @@
 A professional, responsive event website for university (HKMU), built with **pure HTML, CSS, and vanilla JavaScript** — no frameworks or libraries.
 
 ## 🌐 Live Demo
-**[View Live Website →](https://event-registration-website-demo.vercel.app/)**
+**[View Live Website →](https://chloewongwy-event-registration-demo.vercel.app/)**
 
 ## 📁 Project Structure
 
