@@ -91,6 +91,7 @@ The programme schedule is stored in `data.json` with the following format:
 ---
 ## 🔌 API Usage
 ### Fetch API for Dynamic Data Loading
+This website uses the native **Fetch API** to load programme data dynamically from `data.json`. This approach demonstrates modern JavaScript without requiring external libraries.
 
 #### Implementation
 
@@ -108,10 +109,9 @@ async function loadProgrammeData() {
         // Display user-friendly error message
     }
 }
-
-This website uses the native **Fetch API** to load programme data dynamically from `data.json`. This approach demonstrates modern JavaScript without requiring external libraries.
-
+```
 ---
+
 ## 📄 License
 
 This project is available for portfolio demonstration purposes. Event content and HKMU branding are used for educational demonstration only.
