@@ -11,7 +11,7 @@ A professional, responsive event website for university (HKMU), built with **pur
 ├── index.html          # Main HTML file
 ├── script.js           # JavaScript for interactivity and data loading
 ├── data.json           # Programme data (events, speakers, times)
-├── styles.css       # Main stylesheet with HKMU branding
+├── styles.css          # Main stylesheet with HKMU branding
 └── README.md           # This file
 ```
 
